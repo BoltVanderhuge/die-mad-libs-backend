@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_204904) do
     t.text "user_inputs"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "title"
+    t.text "title"
     t.index ["mad_lib_id"], name: "index_text_entries_on_mad_lib_id"
     t.index ["user_id"], name: "index_text_entries_on_user_id"
   end
