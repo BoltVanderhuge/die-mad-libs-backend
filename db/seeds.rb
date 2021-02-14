@@ -37,15 +37,15 @@ story2 = MadLib.create(story: "A forgetful <span id='input1'></span> gasman name
     <input type="text" id="verb" name="verb"><br>
     <input type="submit" value="Create MadLib!" />')
 story3 = MadLib.create(story: "As I walked through the <span id='input1'></span> where I harvest my <span id='input2'></span>, I take a look at my <span id='input3'></span> and realize she’s very <span id='input4'></span>.", form: '
-<label for="holiday">Noun:</label><br>
-<input type="text" id="holiday" name="holiday"><br>
-<label for="food">Food-Related Noun:</label><br>
-<input type="text" id="food" name="food"><br>
-<label for="clothing">A Noun You Possess:</label><br>
-<input type="text" id="clothing" name="clothing"><br>
-<label for="location">Adjective:</label><br>
-<input type="text" id="location" name="location"><br>
-<input type="submit" value="Create MadLib!" />')
+    <label for="noun">Noun:</label><br>
+    <input type="text" id="noun" name="noun"><br>
+    <label for="food-noun">Food-Related Noun:</label><br>
+    <input type="text" id="food-noun" name="food-noun"><br>
+    <label for="posessive-noun">A Noun You Possess:</label><br>
+    <input type="text" id="posessive-noun" name="posessive-noun"><br>
+    <label for="adjective">Adjective:</label><br>
+    <input type="text" id="adjective" name="adjective"><br>
+    <input type="submit" value="Create MadLib!" />')
 
 text_entry1 = TextEntry.create(mad_lib_id: 1, user_id: 1, user_inputs: "my birthday, steak, socks, beach", title: "Bolt's story")
 
