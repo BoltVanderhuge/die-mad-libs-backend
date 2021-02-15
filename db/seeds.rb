@@ -17,6 +17,7 @@ User.reset_pk_sequence
 user1 = User.create(name: "Bolt", age: "21")
 
 story1 = MadLib.create(story: "My favorite holiday is <span id='input1'></span>. I can't wait to have <span id='input2'></span> for dinner. I'm wearing my favorite <span id='input3'></span> to the <span id='input4'></span>.", form:"
+    <input type='hidden' value='User id' id='number'/> 
     <label for='holiday'>Holiday:</label><br>
     <input type='text' id='holiday' name='holiday'><br>
     <label for='food'>Food:</label><br>
@@ -27,6 +28,7 @@ story1 = MadLib.create(story: "My favorite holiday is <span id='input1'></span>.
     <input type='text' id='location' name='location'><br>
     <input type='submit' value='Create MadLib!' />")
 story2 = MadLib.create(story: "A forgetful <span id='input1'></span> gasman named Dieter,<br> Who went <span id='input2'></span>  around his gas heater, <br> <span id='input3'></span>  a leak with his light; <br>  He <span id='input4'></span>. out of sight— <br>  And, as everyone who knows anything about poetry can tell you, he also ruined the meter.", form:'
+    <input type="hidden" value="User id" id="number"/> 
     <label for="adjective">Adjective:</label><br>
     <input type="text" id=" adjective " name=" adjective "><br>
     <label for="present-participle-verb"> Present Participle Verb:</label><br>
@@ -37,6 +39,7 @@ story2 = MadLib.create(story: "A forgetful <span id='input1'></span> gasman name
     <input type="text" id="verb" name="verb"><br>
     <input type="submit" value="Create MadLib!" />')
 story3 = MadLib.create(story: "As I walked through the <span id='input1'></span> where I harvest my <span id='input2'></span>, I take a look at my <span id='input3'></span> and realize she’s very <span id='input4'></span>.", form: '
+    <input type="hidden" value="User id" id="number"/> 
     <label for="noun">Noun:</label><br>
     <input type="text" id="noun" name="noun"><br>
     <label for="food-noun">Food-Related Noun:</label><br>
