@@ -13,16 +13,15 @@ class TextEntriesController < ApplicationController
     render json: text_entry
   end
 
- 
-
   def create 
     new_text_entry = TextEntry.create(text_entry_params)
-    # if new_text_entry.valid?
-     
-    # else
-      
-      
-    # end
+
+    render json: new_text_entry 
+  end
+
+  def destroy
+    delete_text_entry = TextEntry.find(params[:id])
+    delete_text_entry.destroy
   end
 
   

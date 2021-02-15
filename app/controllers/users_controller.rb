@@ -33,7 +33,6 @@ class UsersController < ApplicationController
 
     response = { :inputs => userinput, :mad_story => mad_story }
     render json: response
-
   end
 
 end
