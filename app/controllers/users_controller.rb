@@ -35,4 +35,31 @@ class UsersController < ApplicationController
     render json: response
   end
 
+  def create 
+    user = User.create(user_params)
+   
+      if user.id != nil
+        render json: user 
+      else
+        render json: {status: "error", code: 4000, message: 'Username is already taken'}
+      end
+  
+  end
+
+  def destroy
+    deleteuser = User.find(params[:id])
+    deleteuser.destroy
+  end
+
+  def get_user
+    user = User.where(name: params[:name]).where(age: params[:age])
+    render json: user 
+  end
+
+  private
+
+  def user_params
+    params.require(:user).permit(:name, :age)
+  end
+
 end
