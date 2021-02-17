@@ -50,6 +50,50 @@ story3 = MadLib.create(story: "As I walked through the <span id='input1'></span>
     <input type="text" required id="adjective" name="adjective"><br>
     <input type="submit" value="Create MadLib!" />')
 
+    Story4 = MadLib.create(story: "I've seen things you <span id='input1'></span> wouldn't believe. Attack <span id='input2'></span> on fire off the <span id='input3'></span> of Orion. I watched C-beams <span id='input4'></span> in the dark near the <span id='input5'></span> Gate. All those moments will be lost in time, like tears in <span id='input6'></span>. Time to <span id='input7'></span>.",
+        form: '
+            <input type="hidden" value="User id" id="number"/> 
+            <label for="plural noun">Plural Noun:</label><br>
+            <input type="text" required id=" plural noun " name=" plural noun "><br>
+            <label for="vehicle plural"> Vehicle Plural:</label><br>
+            <input type="text" required id=" vehicle plural" name="vehicle plural "><br>
+            <label for="body part">Body Part:</label><br>
+            <input type="text" required id="body part" name="body part"><br>
+            <label for="verb">Verb:</label><br>
+            <input type="text" required id="verb" name="verb"><br>
+            <label for="proper noun location"> Proper Noun Location:</label><br>
+            <input type="text" required id="proper noun location" name="proper noun location"><br>
+            <label for="weather">Weather:</label><br>
+            <input type="text" required id="weather" name="weather"><br>
+            <label for="event">Event:</label><br>
+            <input type="text" required id="event" name="event"><br>
+            <input type="submit" value="Create MadLib!" />')
+
+            Story4 = MadLib.create(story: "PARTIES: <br> <span id='input1'></span> <br> <span id='input2'></span> <br> MAIN GOALS: 1. <span id='input3'></span> <br>2.<span id='input4'></span>  <br>3.<span id='input5'></span> the task <br>MY IDEAL DRIVER WILL: <br>  Ask me questions like “Which part of this <span id='input6'></span> is the hardest to <span id='input7'></span>?” as opposed to “You <span id='input8'></span>, right?” <br> MY IDEAL NAVIGATOR WILL: <br> <span id='input9'></span>  me <span id='input10'></span>  ",
+                form: '
+                    <input type="hidden" value="User id" id="number"/> 
+                    <label for="name">Name:</label><br>
+                    <input type="text" required id="name" name="name "><br>
+                    <input type="hidden" value="User id" id="number"/> 
+                    <label for="name">Name:</label><br>
+                    <input type="text" required id="name" name="name "><br>
+                    <label for="verb"> Verb:</label><br>
+                    <input type="text" required id=" verb" name="verb "><br>
+                    <label for="verb"> Verb:</label><br>
+                    <input type="text" required id=" verb" name="verb "><br>
+                    <label for="verb"> Verb:</label><br>
+                    <input type="text" required id=" verb" name="verb "><br>
+                    <label for="noun">Noun:</label><br>
+                    <input type="text" required id="noun" name="noun"><br>
+                    <label for="verb">Verb:</label><br>
+                    <input type="text" required id="verb" name="verb"><br>
+                    <label for="verb">Verb:</label><br>
+                    <input type="text" required id="verb" name="verb"><br>  <label for="verb">Verb:</label><br>
+                    <input type="text" required id="verb" name="verb"><br>  <label for="adverb">Adverb:</label><br>
+                    <input type="text" required id="adverb" name="adverb"><br>
+                    <input type="submit" value="Create MadLib!" />')
+        
+
 text_entry1 = TextEntry.create(mad_lib_id: 1, user_id: 1, user_inputs: "my birthday, steak, socks, beach", title: "Bolt's story")
 
 puts "🌱 🌱 🌱  SEEDED 🌱 🌱 🌱 🌱 "

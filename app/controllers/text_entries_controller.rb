@@ -32,3 +32,12 @@ class TextEntriesController < ApplicationController
   end
 
 end
+
+
+
+
+Input 7 verb 
+Input 8 verb 
+Input 9 verb
+Input 10 adverb
+
