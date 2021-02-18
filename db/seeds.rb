@@ -84,30 +84,40 @@ story3 = MadLib.create(story: "As I walked through the <span id='input'></span> 
             <input type="text" required id="event" name="event"><br>
             <input type="submit" value="Create MadLib!" />', title:"Blade Funner", description: "Do Androids Dream of Electronic MadLibs?", picture: "http://igeekout.net/wp-content/uploads/2016/06/RoyBatty.jpg")
 
-        story5 = MadLib.create(story: "PARTIES: <br> <span id='input'></span> <br> <span id='input'></span> <br> MAIN GOALS: 1. <span id='input'></span> <br>2.<span id='input'></span>  <br>3.<span id='input'></span> the task <br>MY IDEAL DRIVER WILL: <br>  Ask me questions like “Which part of this <span id='input'></span> is the hardest to <span id='input'></span>?” as opposed to “You <span id='input'></span>, right?” <br> MY IDEAL NAVIGATOR WILL: <br> <span id='input'></span>  me <span id='input'></span>  ",
-            form: '
-                <input type="hidden" value="User id" id="number"/> 
-                <label for="name">Name:</label><br>
-                <input type="text" required id="name" name="name "><br>
-                <label for="name">Name:</label><br>
-                <input type="text" required id="name" name="name "><br>
-                <label for="verb"> Verb:</label><br>
-                <input type="text" required id=" verb" name="verb "><br>
-                <label for="verb"> Verb:</label><br>
-                <input type="text" required id=" verb" name="verb "><br>
-                <label for="verb"> Verb:</label><br>
-                <input type="text" required id=" verb" name="verb "><br>
-                <label for="noun">Noun:</label><br>
-                <input type="text" required id="noun" name="noun"><br>
-                <label for="verb">Verb:</label><br>
-                <input type="text" required id="verb" name="verb"><br>
-                <label for="verb">Verb:</label><br>
-                <input type="text" required id="verb" name="verb"><br>  
-                <label for="verb">Verb:</label><br>
-                <input type="text" required id="verb" name="verb"><br>  
-                <label for="adverb">Adverb:</label><br>
-                <input type="text" required id="adverb" name="adverb"><br>
-                <input type="submit" value="Create MadLib!" />', title:"Pairing Program", description: "Please fill out this MadLib before starting your MadLibs", picture: "https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg")
+        story5 = MadLib.create(story: "PARTIES: <br> <span id='input'></span> <br> <span id='input'></span> <br> MAIN GOALS: 1. <span id='input'></span> <br>2.<span id='input'></span>  <br>3.<span id='input'></span> the task <br>MY IDEAL DRIVER WILL: <br>  Ask me questions like “Which part of this <span id='input'></span> is the hardest to <span id='input'></span>?” as opposed to “You <span id='input'></span>, right?” <br> MY IDEAL NAVIGATOR WILL: <br> <span id='input'></span>  me <span id='input'></span> <br> COMMUNICATION - WE WILL STRIVE TO <br> <span id='input'></span> with each other at least 3x a <span id='input'></span> <br> discuss <span id='input'></span> for a <span id='input'></span> we’re in charge of before <span id='input'></span> it on our own <br>NOTES <br>I’m at my best when I take a <span id='input'></span> min. <span id='input'></span> every <span id='input'></span> min.",
+            form: "
+            <input type='hidden' value='User id' id='number'/> 
+            <label for='name'>Person's Name:</label><br>
+            <input type='text' required id='name' name='name '><br>
+            <label for='name'>Person's Name:</label><br>
+            <input type='text' required id='name' name='name '><br>
+            <label for='verb'> Verb:</label><br>
+            <input type='text' required id=' verb' name='verb '><br>
+            <label for='verb'> Verb:</label><br>
+            <input type='text' required id=' verb' name='verb '><br>
+            <label for='verb'> Verb:</label><br>
+            <input type='text' required id=' verb' name='verb '><br>
+            <label for='noun'>Noun:</label><br>
+            <input type='text' required id='noun' name='noun'><br>
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='verb' name='verb'><br>
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='verb' name='verb'><br>  
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='verb' name='verb'><br>  
+            <label for='adverb'>Adverb:</label><br>
+            <input type='text' required id='adverb' name='adverb'><br>
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='verb' name='verb'><br>  
+            <label for='noun'>Period of Time:</label><br>
+            <input type='text' required id='noun' name='noun'><br>
+            <label for='noun'>Plural Noun:</label><br>
+            <input type='text' required id='noun' name='noun'><br>
+            <label for='noun'>Noun:</label><br>
+            <input type='text' required id='noun' name='noun'><br>
+            <label for='verb'>Verb Ending in ING:</label><br>
+            <input type='text' required id='verb' name='verb'><br>    
+            <input type='submit' value='Create MadLib!' />", title:'Pairing Program', description: 'Please fill out this MadLib before starting your MadLibs', picture: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg', title:"Pairing Program", description: "Please fill out this MadLib before starting your MadLibs", picture: "https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg")
         
                 story6 = MadLib.create(story: "You know the thing about a <span id='input'></span>, he's got lifeless eyes. <span id='input'></span> eyes like a <span id='input'></span>'s eyes. When he comes at ya, he doesn't seem to be living until he <span id='input'></span> ya and those black <span id='input'></span>s roll over and white and then, ah, then you hear that terrible high-pitch <span id='input'></span>. The ocean turns <span id='input'></span> and despite all the <span id='input'></span> and <span id='input'></span>, they all come in and they <span id='input'></span> you to pieces.", form:"
                     <input type='hidden' value='User id' id='number'/> 
@@ -133,6 +143,38 @@ story3 = MadLib.create(story: "As I walked through the <span id='input'></span> 
                     <input type='text' required id='Verb' name='Verb'><br>
                     <input type='submit' value='Create MadLib!' />", title: "Jaws", description:"Quint's a little confused", picture: "assets/jaw.jpg")
                 
-
+                    story7 = MadLib.create(story: "Thank you, <span id='input'></span>, it’s been a real <span id='input'></span> week, at the beginning I was feeling very <span id='input'></span> but at the end I am in a place where I feel just <span id='input'></span>. The lecture by <span id='input'></span> really <span id='input'></span> the whole <span id='input'></span> concept to me. I'm really looking forward to the weekend so I can just <span id='input'></span>. I also want to shout out my partner this week <span id='input'></span> they were really <span id='input'></span> to  <span id='input'></span> with. I also want to say '<span id='input'></span>' to everyone in the cohort I couldn’t have <span id='input'></span> without all of you. Now everyone put your <span id='input'></span> in and say:<br>‘What the <span id='input'></span>!", form:"
+                        <input type='hidden' value='User id' id='number'/> 
+                        <label for='Name'>Name:</label><br>
+                        <input type='text' required id='Name' name='Name'><br>
+                        <label for='Adjective'>Adjective:</label><br>
+                        <input type='text' required id='Adjective' name='Adjective'><br>
+                        <label for='Adjective'>Adjective:</label><br>
+                        <input type='text' required id='Adjective' name='Adjective'><br>
+                        <label for='Adjective'>Adjective:</label><br>
+                        <input type='text' required id='Adjective' name='Adjective'><br>
+                        <label for='Persons-Name'>Person's Name:</label><br>
+                        <input type='text' required id='Persons-Name' name='Persons-Name'><br>
+                        <label for='Verb-Ending-In-ED'>Verb Ending In ED:</label><br>
+                        <input type='text' required id='Verb-Ending-In-ED' name='Verb-Ending-In-ED'><br>
+                        <label for='Noun'>Coding Related Noun:</label><br>
+                        <input type='text' required id='Noun' name='Noun'><br>
+                        <label for='Verb'>Verb:</label><br>
+                        <input type='text' required id='Verb' name='Verb'><br>
+                        <label for='Persons-Name'>Person's Name:</label><br>
+                        <input type='text' required id='Persons-Name' name='Persons-Name'><br>
+                        <label for='Adjective'>Adjective:</label><br>
+                        <input type='text' required id='Adjective' name='Adjective'><br>
+                        <label for='Verb'>Verb:</label><br>
+                        <input type='text' required id='Verb' name='Verb'><br>
+                        <label for='Expression'>Expression:</label><br>
+                        <input type='text' required id='Expression' name='Expression'><br>
+                        <label for='Verb-Ending-In-ED'>Verb Ending In ED:</label><br>
+                        <input type='text' required id='Verb-Ending-In-ED' name='Verb-Ending-In-ED'><br>
+                        <label for='Body-Part'>Body Part:</label><br>
+                        <input type='text' required id='Body-Part' name='Body-Part'><br>
+                        <label for='Noun'>Noun:</label><br>
+                        <input type='text' required id='Noun' name='Noun'><br>
+                        <input type='submit' value='Create MadLib!' />", title: "Friday Feelz", description:"Can't Think of What to Say?", picture: "/assets/feelz.png")
 
 puts "🌱 🌱 🌱  SEEDED 🌱 🌱 🌱 🌱 "
