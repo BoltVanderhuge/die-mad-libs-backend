@@ -42,6 +42,16 @@ class TextEntriesController < ApplicationController
     render json: tenlist
   end
 
+  def top_five
+    text_entries = (TextEntry.all)
+    sorted_text_entries = text_entries.sort_by { |text_entry| -text_entry.likes }
+
+    size = 5
+    fivelist = sorted_text_entries.slice(0,size)
+
+    render json: fivelist
+  end
+
   
   private
 
