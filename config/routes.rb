@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   post '/text_entries', to: 'text_entries#create'
   get '/text_entries/:id/user', to: 'text_entries#other_stories'
   get '/text_entries/:id', to: 'text_entries#show'
+  patch '/text_entries/:id', to: 'text_entries#update'
   delete '/text_entries/:id', to: 'text_entries#destroy'
   
   get '/users', to: 'users#index'

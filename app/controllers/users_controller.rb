@@ -30,8 +30,8 @@ class UsersController < ApplicationController
     user = User.find(params[:id])
     userinput = user.text_entries.find(params[:text_id]).user_inputs
     mad_story = user.text_entries.find(params[:text_id]).mad_lib.story
-
-    response = { :inputs => userinput, :mad_story => mad_story }
+    likes = user.text_entries.find(params[:text_id]).likes
+    response = { :inputs => userinput, :mad_story => mad_story, :likes => likes }
     render json: response
   end
 

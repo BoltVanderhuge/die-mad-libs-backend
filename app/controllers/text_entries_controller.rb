@@ -1,6 +1,7 @@
 class TextEntriesController < ApplicationController
+  before_action :set_text_entry, only: [:show, :update, :destroy]
   def index 
-    text_entries = TextEntry
+    text_entries = TextEntry.all
     
 
     render json: text_entries
@@ -11,6 +12,12 @@ class TextEntriesController < ApplicationController
 
     text_entry = TextEntry.find(params[:id])
 
+    render json: text_entry
+  end
+
+  def update
+    text_entry = TextEntry.find(params[:id])
+    text_entry.update(text_entry_params)
     render json: text_entry
   end
 
@@ -39,7 +46,11 @@ class TextEntriesController < ApplicationController
   private
 
   def text_entry_params
-    params.require(:text_entry).permit(:user_id, :mad_lib_id, :user_inputs, :title)
+    params.require(:text_entry).permit(:user_id, :mad_lib_id, :user_inputs, :title, :likes)
+  end
+
+  def set_text_entry
+    text_entry = TextEntry.find(params[:id])
   end
 
 end
