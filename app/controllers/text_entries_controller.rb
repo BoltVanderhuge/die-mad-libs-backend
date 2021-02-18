@@ -1,6 +1,7 @@
 class TextEntriesController < ApplicationController
   def index 
-    text_entries = TextEntry.all 
+    text_entries = TextEntry
+    
 
     render json: text_entries
   end 
@@ -24,6 +25,16 @@ class TextEntriesController < ApplicationController
     delete_text_entry.destroy
   end
 
+  def other_stories
+    text_entries = (TextEntry.all)
+    winnowed_text_entries = text_entries.select{|text_entry|text_entry.user_id !=(params[:id]).to_i}
+
+    size = 10
+    tenlist = winnowed_text_entries.slice(0,size)
+
+    render json: tenlist
+  end
+
   
   private
 
@@ -35,9 +46,4 @@ end
 
 
 
-
-Input 7 verb 
-Input 8 verb 
-Input 9 verb
-Input 10 adverb
 

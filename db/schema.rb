@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_14_184227) do
+ActiveRecord::Schema.define(version: 2021_02_17_230741) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,9 @@ ActiveRecord::Schema.define(version: 2021_02_14_184227) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.text "form"
+    t.string "title"
+    t.string "description"
+    t.string "picture"
   end
 
   create_table "text_entries", force: :cascade do |t|
@@ -29,6 +32,7 @@ ActiveRecord::Schema.define(version: 2021_02_14_184227) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.text "title"
+    t.integer "likes", default: 0
     t.index ["mad_lib_id"], name: "index_text_entries_on_mad_lib_id"
     t.index ["user_id"], name: "index_text_entries_on_user_id"
   end
