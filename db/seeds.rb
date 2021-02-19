@@ -32,7 +32,7 @@ story1 = MadLib.create(story: "Here is tomorrow's weather report for <span id='i
     <label for='Plural-Noun'>Plural Noun:</label><br>
     <input type='text' required id='story1-Plural-Noun1' name='Plural-Noun'><br>
     <label for='Adjective'>Adjective:</label><br>
-    <input type='text' required id='story1-Adjective1' name='Adjective'><br>
+    <input type='text' required id='story1-Adjective2' name='Adjective'><br>
     <label for='Plural-Noun'>Plural Noun:</label><br>
     <input type='text' required id='story1-Plural-Noun2' name='Plural-Noun'><br>
     <label for='Number'>Number:</label><br>
@@ -116,7 +116,13 @@ story3 = MadLib.create(story: "As I walked through the <span id='input'></span> 
             <label for='noun'>Noun:</label><br>
             <input type='text' required id='story5-noun4' name='noun'><br>
             <label for='verb'>Verb Ending in ING:</label><br>
-            <input type='text' required id='story5-verb8' name='verb'><br>    
+            <input type='text' required id='story5-verb8' name='verb'><br>
+            <label for='noun'>Number:</label><br>
+            <input type='number' required id='story5-number2' name='number'><br>
+            <label for='noun'>Noun:</label><br>
+            <input type='text' required id='story5-noun5' name='noun'><br>
+            <label for='noun'>Number:</label><br>
+            <input type='number' required id='story5-number3' name='number'><br>    
             <input type='submit' value='Create MadLib!' />", title:'Pairing Program', description: 'Please fill out this MadLib before starting your MadLibs', picture: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg')
         
                 story6 = MadLib.create(story: "You know the thing about a <span id='input'></span>, he's got lifeless eyes. <span id='input'></span> eyes like a <span id='input'></span>'s eyes. When he comes at ya, he doesn't seem to be living until he <span id='input'></span> ya and those black <span id='input'></span>s roll over and white and then, ah, then you hear that terrible high-pitch <span id='input'></span>. The ocean turns <span id='input'></span> and despite all the <span id='input'></span> and <span id='input'></span>, they all come in and they <span id='input'></span> you to pieces.", form:"
@@ -166,7 +172,7 @@ story3 = MadLib.create(story: "As I walked through the <span id='input'></span> 
                         <label for='Adjective'>Adjective:</label><br>
                         <input type='text' required id='story7-Adjective4' name='Adjective'><br>
                         <label for='Verb'>Verb:</label><br>
-                        <input type='text' required id='story7-Verb1' name='Verb'><br>
+                        <input type='text' required id='story7-Verb2' name='Verb'><br>
                         <label for='Expression'>Phrase/Expression:</label><br>
                         <input type='text' required id='story7-Expression1' name='Expression'><br>
                         <label for='Verb-Ending-In-ED'>Verb Ending In ED:</label><br>
@@ -202,12 +208,12 @@ story3 = MadLib.create(story: "As I walked through the <span id='input'></span> 
                                                     <input type='text' required id='story8-Noun-Plural2' name='Noun-Plural'><br>
                                                     <label for='Noun'>Noun:</label><br>
                                                     <input type='text' required id='story8-Noun2' name='Noun'><br>
-                                                    <label for='Adjective'>Adjetive:</label><br>
+                                                    <label for='Adjective'>Adjective:</label><br>
                                                     <input type='text' required id='story8-Adjective1' name='Adjective'><br>
                                                     <label for='Verb'>Verb:</label><br>
                                                     <input type='text' required id='story8-Verb1' name='Verb'><br>
                                                     <label for='Number'>Number:</label><br>
-                                                    <input type='text' required id='story8-Number1' name='Number'><br>
+                                                    <input type='number' required id='story8-Number1' name='Number'><br>
                                                     <label for='Adjective'>Adjective:</label><br>
                                                     <input type='text' required id='story8-Adjective' name='Adjective'><br>
                                                     <label for='Body-Part'>Body Part:</label><br>
