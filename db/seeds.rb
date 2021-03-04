@@ -118,11 +118,11 @@ story3 = MadLib.create(story: "As I walked through the <span id='input'></span> 
             <label for='verb'>Verb Ending in ING:</label><br>
             <input type='text' required id='story5-verb8' name='verb'><br>
             <label for='noun'>Number:</label><br>
-            <input type='number' required id='story5-number2' name='number'><br>
+            <input type='number' required id='story5-number2' name='Number'><br>
             <label for='noun'>Noun:</label><br>
             <input type='text' required id='story5-noun5' name='noun'><br>
             <label for='noun'>Number:</label><br>
-            <input type='number' required id='story5-number3' name='number'><br>    
+            <input type='number' required id='story5-number3' name='Number'><br>    
             <input type='submit' value='Create MadLib!' />", title:'Pairing Program', description: 'Please fill out this MadLib before starting your MadLibs', picture: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg')
         
                 story6 = MadLib.create(story: "You know the thing about a <span id='input'></span>, he's got lifeless eyes. <span id='input'></span> eyes like a <span id='input'></span>'s eyes. When he comes at ya, he doesn't seem to be living until he <span id='input'></span> ya and those black <span id='input'></span>s roll over and white and then, ah, then you hear that terrible high-pitch <span id='input'></span>. The ocean turns <span id='input'></span> and despite all the <span id='input'></span> and <span id='input'></span>, they all come in and they <span id='input'></span> you to pieces.", form:"
