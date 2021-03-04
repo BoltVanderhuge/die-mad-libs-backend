@@ -84,46 +84,46 @@ story3 = MadLib.create(story: "As I walked through the <span id='input'></span> 
             <input type="text" required id="story4-event" name="event"><br>
             <input type="submit" value="Create MadLib!" />', title:"Blade Funner", description: "Do Androids Dream of Electronic MadLibs?", picture: "http://igeekout.net/wp-content/uploads/2016/06/RoyBatty.jpg")
 
-        # story5 = MadLib.create(story: "PARTIES: <br> <span id='input'></span> <br> <span id='input'></span> <br> MAIN GOALS: 1. <span id='input'></span> <br>2.<span id='input'></span>  <br>3.<span id='input'></span> the task <br>MY IDEAL DRIVER WILL: <br>  Ask me questions like “Which part of this <span id='input'></span> is the hardest to <span id='input'></span>?” as opposed to “You <span id='input'></span>, right?” <br> MY IDEAL NAVIGATOR WILL: <br> <span id='input'></span>  me <span id='input'></span> <br> COMMUNICATION - WE WILL STRIVE TO <br> <span id='input'></span> with each other at least 3x a <span id='input'></span> <br> discuss <span id='input'></span> for a <span id='input'></span> we’re in charge of before <span id='input'></span> it on our own <br>NOTES <br>I’m at my best when I take a <span id='input'></span> min. <span id='input'></span> every <span id='input'></span> min.",
-        #     form: "
-        #     <input type='hidden' value='User id' id='number'/> 
-        #     <label for='name'>Person's Name:</label><br>
-        #     <input type='text' required id='story5-name1' name='name '><br>
-        #     <label for='name'>Person's Name:</label><br>
-        #     <input type='text' required id='story5-name2' name='name '><br>
-        #     <label for='verb'> Verb:</label><br>
-        #     <input type='text' required id='story5- verb1' name='verb '><br>
-        #     <label for='verb'> Verb:</label><br>
-        #     <input type='text' required id='story5- verb2' name='verb '><br>
-        #     <label for='verb'> Verb:</label><br>
-        #     <input type='text' required id='story5- verb3' name='verb '><br>
-        #     <label for='noun'>Noun:</label><br>
-        #     <input type='text' required id='story5-noun1' name='noun'><br>
-        #     <label for='verb'>Verb:</label><br>
-        #     <input type='text' required id='story5-verb4' name='verb'><br>
-        #     <label for='verb'>Verb:</label><br>
-        #     <input type='text' required id='story5-verb5' name='verb'><br>  
-        #     <label for='verb'>Verb:</label><br>
-        #     <input type='text' required id='story5-verb6' name='verb'><br>  
-        #     <label for='adverb'>Adverb:</label><br>
-        #     <input type='text' required id='story5-adverb1' name='adverb'><br>
-        #     <label for='verb'>Verb:</label><br>
-        #     <input type='text' required id='story5-verb7' name='verb'><br>  
-        #     <label for='noun'>Period of Time:</label><br>
-        #     <input type='text' required id='story5-noun2' name='noun'><br>
-        #     <label for='noun'>Plural Noun:</label><br>
-        #     <input type='text' required id='story5-noun3' name='noun'><br>
-        #     <label for='noun'>Noun:</label><br>
-        #     <input type='text' required id='story5-noun4' name='noun'><br>
-        #     <label for='verb'>Verb Ending in ING:</label><br>
-        #     <input type='text' required id='story5-verb8' name='verb'><br>
-        #     <label for='noun'>Number:</label><br>
-        #     <input type='number' required id='story5-number2' name='number'><br>
-        #     <label for='noun'>Noun:</label><br>
-        #     <input type='text' required id='story5-noun5' name='noun'><br>
-        #     <label for='noun'>Number:</label><br>
-        #     <input type='number' required id='story5-number3' name='number'><br>    
-        #     <input type='submit' value='Create MadLib!' />", title:'Pairing Program', description: 'Please fill out this MadLib before starting your MadLibs', picture: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg')
+        story5 = MadLib.create(story: "PARTIES: <br> <span id='input'></span> <br> <span id='input'></span> <br> MAIN GOALS: 1. <span id='input'></span> <br>2.<span id='input'></span>  <br>3.<span id='input'></span> the task <br>MY IDEAL DRIVER WILL: <br>  Ask me questions like “Which part of this <span id='input'></span> is the hardest to <span id='input'></span>?” as opposed to “You <span id='input'></span>, right?” <br> MY IDEAL NAVIGATOR WILL: <br> <span id='input'></span>  me <span id='input'></span> <br> COMMUNICATION - WE WILL STRIVE TO <br> <span id='input'></span> with each other at least 3x a <span id='input'></span> <br> discuss <span id='input'></span> for a <span id='input'></span> we’re in charge of before <span id='input'></span> it on our own <br>NOTES <br>I’m at my best when I take a <span id='input'></span> min. <span id='input'></span> every <span id='input'></span> min.",
+            form: "
+            <input type='hidden' value='User id' id='number'/> 
+            <label for='name'>Person's Name:</label><br>
+            <input type='text' required id='story5-name1' name='name '><br>
+            <label for='name'>Person's Name:</label><br>
+            <input type='text' required id='story5-name2' name='name '><br>
+            <label for='verb'> Verb:</label><br>
+            <input type='text' required id='story5- verb1' name='verb '><br>
+            <label for='verb'> Verb:</label><br>
+            <input type='text' required id='story5- verb2' name='verb '><br>
+            <label for='verb'> Verb:</label><br>
+            <input type='text' required id='story5- verb3' name='verb '><br>
+            <label for='noun'>Noun:</label><br>
+            <input type='text' required id='story5-noun1' name='noun'><br>
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='story5-verb4' name='verb'><br>
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='story5-verb5' name='verb'><br>  
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='story5-verb6' name='verb'><br>  
+            <label for='adverb'>Adverb:</label><br>
+            <input type='text' required id='story5-adverb1' name='adverb'><br>
+            <label for='verb'>Verb:</label><br>
+            <input type='text' required id='story5-verb7' name='verb'><br>  
+            <label for='noun'>Period of Time:</label><br>
+            <input type='text' required id='story5-noun2' name='noun'><br>
+            <label for='noun'>Plural Noun:</label><br>
+            <input type='text' required id='story5-noun3' name='noun'><br>
+            <label for='noun'>Noun:</label><br>
+            <input type='text' required id='story5-noun4' name='noun'><br>
+            <label for='verb'>Verb Ending in ING:</label><br>
+            <input type='text' required id='story5-verb8' name='verb'><br>
+            <label for='noun'>Number:</label><br>
+            <input type='number' required id='story5-number2' name='number'><br>
+            <label for='noun'>Noun:</label><br>
+            <input type='text' required id='story5-noun5' name='noun'><br>
+            <label for='noun'>Number:</label><br>
+            <input type='number' required id='story5-number3' name='number'><br>    
+            <input type='submit' value='Create MadLib!' />", title:'Pairing Program', description: 'Please fill out this MadLib before starting your MadLibs', picture: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Pair_programming_1.jpg')
         
                 story6 = MadLib.create(story: "You know the thing about a <span id='input'></span>, he's got lifeless eyes. <span id='input'></span> eyes like a <span id='input'></span>'s eyes. When he comes at ya, he doesn't seem to be living until he <span id='input'></span> ya and those black <span id='input'></span>s roll over and white and then, ah, then you hear that terrible high-pitch <span id='input'></span>. The ocean turns <span id='input'></span> and despite all the <span id='input'></span> and <span id='input'></span>, they all come in and they <span id='input'></span> you to pieces.", form:"
                     <input type='hidden' value='User id' id='number'/> 
